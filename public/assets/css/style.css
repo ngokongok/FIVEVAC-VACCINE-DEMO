@@ -1,0 +1,12 @@
+
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif; }
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?q=80&w=2000');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 12px;
+}
+.navbar-brand img { height: 36px; margin-right: 8px; }
+.card { border-radius: 14px; }
+.footer { color: #6c757d; }

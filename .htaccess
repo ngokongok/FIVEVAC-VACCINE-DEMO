@@ -1,0 +1,7 @@
+RewriteEngine On
+# Forbid direct access to the application directory
+RewriteRule ^app/ - [F,L]
+
+# If the request is not already in the /public folder, redirect to /public
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ public/$1 [L]

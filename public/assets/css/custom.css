@@ -1,0 +1,107 @@
+/* Custom styles for the Fivevac homepage and other pages. */
+
+/* Carousel caption styling: semi–transparent background for readability */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+}
+
+.carousel-caption h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Ensure carousel images cover the available space and maintain aspect ratio */
+.carousel-item img {
+  object-fit: cover;
+  height: 480px;
+}
+
+/* Statistics section: subtle background and hover elevation */
+.stats-section {
+  background-color: #f7fafc;
+}
+
+.stats-section .stat {
+  text-align: center;
+  padding: 1rem 0;
+  transition: transform 0.2s ease;
+}
+
+.stats-section .stat:hover {
+  transform: translateY(-5px);
+}
+
+.stats-section .number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--brand, #0d6efd);
+}
+
+.stats-section .label {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Gradient statistics section for homepage */
+.stats-gradient {
+  background: linear-gradient(90deg, #0072bc, #00c6ff);
+  color: #fff;
+}
+.stats-gradient .label {
+  color: #fff;
+  font-size: 1rem;
+}
+.stats-gradient .count {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* Feature cards: lift slightly on hover and add a soft shadow */
+.feature-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Testimonials styling */
+.testimonial-card {
+  border: 1px solid #e9ecef;
+  border-radius: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-card .quote {
+  font-size: 2rem;
+  color: var(--brand, #0d6efd);
+}
+
+.testimonial-card .rating {
+  color: #fcbf49;
+  font-size: 1rem;
+}
+
+/* Footer styling */
+.footer.border-top {
+  border-top: 2px solid #cbb279 !important;
+}
+
+.footer h6 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer p {
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+  color: #555;
+}

@@ -1,0 +1,33 @@
+
+/* Bootstrap-lite fallback (subset) */
+*{box-sizing:border-box} html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+.container{width:100%;max-width:1140px;margin:0 auto;padding:0 1rem}
+.row{display:flex;flex-wrap:wrap;margin:-.5rem}
+[class^="col-"],[class*=" col-"]{padding:.5rem;flex:1 0 0}
+.col-md-4{flex:0 0 33.333%;max-width:33.333%} .col-md-6{flex:0 0 50%;max-width:50%} .col-md-8{flex:0 0 66.666%;max-width:66.666%}
+.col-lg-4{flex:0 0 33.333%;max-width:33.333%} .col-lg-8{flex:0 0 66.666%;max-width:66.666%}
+.navbar{display:flex;gap:1rem;align-items:center;padding:.75rem 0}
+.navbar .navbar-brand{font-weight:700;text-decoration:none;color:#0d6efd}
+.navbar .nav-link{color:#0d6efd;text-decoration:none;margin-right:.5rem}
+.navbar .nav-link:hover{text-decoration:underline}
+.bg-light{background:#f8f9fa}
+.border-bottom{border-bottom:1px solid #dee2e6}
+.btn{display:inline-block;padding:.5rem 1rem;border-radius:.375rem;border:1px solid transparent;cursor:pointer;text-decoration:none}
+.btn-primary{background:#0d6efd;color:#fff;border-color:#0d6efd}
+.btn-outline-light{background:transparent;color:#fff;border-color:#fff}
+.btn-outline-primary{background:transparent;color:#0d6efd;border-color:#0d6efd}
+.card{border:1px solid #dee2e6;border-radius:.75rem;overflow:hidden;background:#fff}
+.card-body{padding:1rem 1.25rem}
+.card-title{margin:0 0 .5rem}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:.5rem;border:1px solid #dee2e6}
+.table-sm th,.table-sm td{padding:.25rem .5rem}
+.lead{font-size:1.1rem;color:#495057}
+.display-5{font-size:2rem;font-weight:700}
+.img-fluid{max-width:100%;height:auto;display:block}
+.rounded{border-radius:.5rem} .shadow-sm{box-shadow:0 .125rem .25rem rgba(0,0,0,.075)}
+.hero{background-size:cover;background-position:center;color:#fff;border-radius:.75rem}
+.footer{color:#6c757d}
+.alert{padding:.5rem 1rem;border-radius:.375rem;margin-bottom:1rem}
+.alert-danger{background:#f8d7da;color:#842029}
+.alert-success{background:#d1e7dd;color:#0f5132}
